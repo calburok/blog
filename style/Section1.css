@@ -1,0 +1,13 @@
+.greenText {
+  font-size: 6vw;
+
+  font-weight: bold;
+  color: #00ff04;
+  text-transform: uppercase;
+  line-height: 1;
+}
+
+.sectionOneTextWrap > * {
+  display: flex;
+  flex-direction: column;
+}
