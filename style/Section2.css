@@ -22,7 +22,7 @@
   background: rgba(255, 255, 255, 0.03);
   backdrop-filter: blur(10px);
   border: 1px solid rgba(255, 255, 255, 0.08);
-  border-radius: 20px;
+  border-radius: 12px;
   overflow: hidden;
   box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
   transition: all 0.3s ease;
@@ -58,9 +58,9 @@
 .swiperPage__image-container {
   position: relative;
   width: 100%;
-  height: 200px;
+  height: 240px;
   overflow: hidden;
-  border-radius: 20px 20px 0 0;
+  border-radius: 12px 12px 0 0;
 }
 
 .swiperPage__image {
@@ -77,19 +77,25 @@
 }
 
 .swiperPage__content {
-  padding: 25px;
+  padding: 15px;
   flex-grow: 1;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   position: relative;
   z-index: 2;
+  background: linear-gradient(
+    to bottom,
+    transparent 0%,
+    rgba(255, 255, 255, 0.03) 10%,
+    rgba(255, 255, 255, 0.03) 100%
+  );
 }
 
 .swiperPage__title {
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   font-weight: 600;
-  margin-bottom: 15px;
+  margin-bottom: 10px;
   background: linear-gradient(45deg, #6b8cff, #8b5cf6);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -98,9 +104,31 @@
 
 .swiperPage__text {
   color: rgba(203, 213, 225, 0.8);
-  font-size: 1rem;
-  line-height: 1.6;
-  margin-bottom: 15px;
+  font-size: 0.9rem;
+  line-height: 1.4;
+  margin-bottom: 10px;
+}
+
+.swiperPage__brand-logo {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  width: 40px;
+  height: 40px;
+  background: rgba(0, 0, 0, 0.5);
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 2;
+  backdrop-filter: blur(5px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.swiperPage__brand-logo-img {
+  width: 24px;
+  height: 24px;
+  object-fit: contain;
 }
 
 /* Swiper Navigation and Pagination Styles */

@@ -19,11 +19,11 @@ const SectionOneTexts = () => {
       y: 100,
       z: -400,
       scale: 0.4,
-      rotationY: 100, // ✅ 2바퀴 회전!
+      rotationY: 100,
       transformPerspective: 1200,
       transformOrigin: 'center center',
-      duration: 1.2, // 살짝 늘려주면 더 자연스러움
-      ease: 'power4.out', // ✅ 중간에 끊기지 않고 감속
+      duration: 1.2,
+      ease: 'power4.out',
       stagger: 0.15,
     });
   }, []);

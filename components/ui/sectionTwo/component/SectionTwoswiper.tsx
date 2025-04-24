@@ -26,12 +26,12 @@ const SectionTwoswiper = () => {
     },
     {
       title: 'Node.js',
-      img: '/images/node.js',
+      img: '/images/node.png',
       text: '서버 사이드 JavaScript 런타임',
     },
     {
       title: 'SQL',
-      img: '/images/sql.png',
+      img: '/images/sql2.png',
       text: '관계형 데이터베이스 관리 시스템',
     },
   ];
