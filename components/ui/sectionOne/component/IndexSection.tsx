@@ -1,12 +1,14 @@
 import React from 'react';
 import SectionOneTexts from './SectionOneTexts';
+import SectionOneImgs from './SectionOneImgs';
 
-const IndexSection = () => {
+const IndexSectionOne = () => {
   return (
-    <div>
+    <section className="sectionONE">
       <SectionOneTexts />
-    </div>
+      <SectionOneImgs />
+    </section>
   );
 };
 
-export default IndexSection;
+export default IndexSectionOne;

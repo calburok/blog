@@ -1,11 +1,11 @@
-import IndexSection from '@/components/ui/sectionOne/component/IndexSection';
+import IndexSectionOne from '@/components/ui/sectionOne/component/IndexSection';
+import SectionTwoIndex from '@/components/ui/sectionTwo/component/SectionTwoIndex';
 
 export default function Home() {
   return (
     <>
-      <section className="sectionONE">
-        <IndexSection />
-      </section>
+      <IndexSectionOne />
+      <SectionTwoIndex></SectionTwoIndex>
     </>
   );
 }
